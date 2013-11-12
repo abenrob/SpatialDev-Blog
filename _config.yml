@@ -1,0 +1,27 @@
+auto: true
+markdown: rdiscount
+pygments: true
+
+title: spatialdev blog
+
+url: http://spatialdev.com/blog
+
+permalink: /:year/:month/:day/:title/
+
+author:
+    name: spatialdev
+    email: spatialdev@spatialdev.com
+    github: spatialdev
+    twitter: spatialdev
+    gravatar: https://pbs.twimg.com/profile_images/307679019/spatial-dev-logo.jpg
+
+comments:
+    provider: disqus
+    disqus:
+        short_name: spatialdev
+        
+analytics:
+    provider: google 
+    google: 
+        tracking_id: 'UA-6456877-6'
+        domain: 'spatialdev.com'
